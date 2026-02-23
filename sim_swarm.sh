@@ -7,8 +7,8 @@ pkill -f mavproxy
 sleep 2
 
 # --- 2. Configuration des chemins ---
-ARDUPILOT_HOME="$HOME/ardupilot"
-SIM_DIR="$HOME/ardu-sim"
+ARDUPILOT_HOME="$HOME/code/drone/ardupilot"
+SIM_DIR="$HOME/code/drone/Simulation_MavProxy/ardu-sim"
 PARAM_DIR="$SIM_DIR/parameters"
 LOG_DIR="$SIM_DIR/logs"
 
