@@ -63,6 +63,7 @@ echo "--> Lancement du FOLLOWER (SYSID 2)"
 
 sleep 5
 
+exit
 # --- 6. Lancement de la Station Sol ---
 echo "--> Démarrage MAVProxy"
 mavproxy.py \
